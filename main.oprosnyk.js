@@ -2,7 +2,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // Создаем экземпляр бота с токеном, который вы получили от BotFather
-const bot = new TelegramBot('6634155960:AAGIsxOJ8rF0bZ3jAMeiSONucetiIBjdK8cь', {polling: true});
+const bot = new TelegramBot('', {polling: true});
 
 // Создаем массив с вопросами для опросника
 const questions = [
