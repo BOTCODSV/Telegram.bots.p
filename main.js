@@ -2,7 +2,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // Задаем токен для бота, который получили от BotFather
-const token = '6800227597:AAGNiJ6SrwTEWN3zHV_n0W21iaCKQTsut18';
+const token = '';
 
 // Создаем экземпляр бота
 const bot = new TelegramBot(token, {polling: true});
